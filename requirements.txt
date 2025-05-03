@@ -6,3 +6,10 @@ scikit-learn
 xgboost
 kagglehub
 joblib
+pandas
+joblib
+requests
+together
+flask
+python-dotenv
+mutagen
