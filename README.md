@@ -24,7 +24,7 @@ general_info.txt
 
 Ishlatish
 
-Dasturni ishga tushirish uchun python main.py buyrug'ini ishga tushiring.
+Dasturni terminalda ishga tushirish uchun python terminal.py buyrug'ini ishga tushiring.
 "o" (ovoz) yoki "m" (matn) tanloving.
 Ovozli xabar uchun 7 soniya ichida gapiring.
 "exit" deb yozish yoki aytish orqali chiqish.
@@ -36,10 +36,10 @@ Kredit limiti bashorati: Foydalanuvchi ID raqamini kiritganda kredit limiti hiso
 Umumiy ma'lumotlar: Bank haqida ma'lumot taqdim etiladi.
 Tillar: O'zbekcha (Krill va Lotin).
 
-Muallif
-Loyiha Neo tomonidan ishlab chiqilgan.
+Muallif: Go Ahead Jamoasi
+
 Aloqa
-Savollar uchun: https://t.me/Orifjon_Kenjayev
+Savollar uchun: https://t.me/Orifjon_Kenjayev  https://t.me/hikamoru  https://t.me/Firdavs_Shavqiddinov  https://t.me/Djuraev_Mirshod  https://t.me/Azimov09
 
 
 
@@ -56,3 +56,4 @@ Terminalda ishlatish uchun terminal.py
 tts -> aisha
 stt -> gemini
 llm -> llama
+prediction model -> linear regression
