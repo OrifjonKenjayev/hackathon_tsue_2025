@@ -1,0 +1,68 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[uzbek]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Defining document structure and packages
+% Configuring page layout and fonts
+\usepackage{DejaVuSans} % Reliable font for Uzbek
+\usepackage{amsfonts}
+
+\title{Ipak Yo'li Bank Chatboti Hujjati}
+\author{Neo}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Loyiha haqida}
+% Describing the project purpose and functionality
+Bu hujjat Ipak Yo'li banki uchun ishlab chiqilgan chatbotning texnik tavsifini o'z ichiga oladi. Chatbot foydalanuvchilarning ovozli va matnli so'rovlarini qabul qilib, kredit limitlarini bashorat qilish va bank ma'lumotlarini taqdim etish uchun mo'ljallangan.
+
+\section{O'rnatish va ishlatish}
+% Providing installation and usage instructions
+\subsection{O'rnatish}
+Python 3.8+ ni o'rnatish zarur. Quyidagi kutubxonlarni o'rnatish kerak:
+\begin{itemize}
+    \item pandas
+    \item joblib
+    \item requests
+    \item google-generativeai
+    \item scipy
+    \item sounddevice
+    \item pygame
+    \item together
+    \item dotenv
+\end{itemize}
+`.env` faylida API kalitlarini belgilang:
+\begin{itemize}
+    \item GEMINI\_API\_KEY
+    \item TTS\_API\_KEY
+    \item TOGETHER\_API\_KEY
+\end{itemize}
+Fayllarni yuklang: `linear_regression_model.pkl`, `test_data2.csv`, `general_info.txt`.
+
+\subsection{Ishlatish}
+Dasturni `python main.py` bilan ishga tushiring. "o" (ovoz) yoki "m" (matn) tanloving. Ovozli xabar uchun 7 soniya ichida gapiring. "exit" bilan chiqish.
+
+\section{Funksiyalar}
+% Listing main features
+\begin{itemize}
+    \item Ovozli va matnli kiritish qo'llab-quvvatlanadi.
+    \item Kredit limiti ID asosida bashorat qilinadi.
+    \item Bank haqida umumiy ma'lumotlar taqdim etiladi.
+    \item O'zbekcha (Krill va Lotin) tillarini qo'llab-quvvatlaydi.
+\end{itemize}
+
+\section{Muallif va aloqa}
+% Providing author and contact information
+Loyiha Neo tomonidan ishlab chiqilgan. Savollar uchun email manzilingizga murojaat qiling.
+
+\end{document}
