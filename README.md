@@ -57,3 +57,5 @@ tts -> aisha
 stt -> gemini
 llm -> llama
 prediction model -> linear regression
+
+MVP videosi: https://youtu.be/xTRGcYW6lqM?si=6qSwG-xKbfRdBizw
